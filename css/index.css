@@ -1,4 +1,6 @@
 body {
-    background-image: url("Artboard 1_1.png");
+    background-image: url("./Artboard 1_1.png");
     background-repeat: repeat-y;
+    background-position: left top; 
+    background-size: auto;         
 }
