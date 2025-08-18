@@ -10,7 +10,7 @@ h1{
 }
 
 #header{
-    color:#000000
+    color:#ffffff
 }
 #subheader{
     font-family: "azo-sans-web", sans-serif;
@@ -18,4 +18,12 @@ h1{
     font-style: bold;
     font-size: 3.5em;
     text-align: center;
+    color: #ffffff;
 }
+
+body {
+    background-image: url("Artboard 1_1.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
