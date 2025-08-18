@@ -2,12 +2,17 @@ h1{
     font-family: "bio-sans", sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 15.5em;
+    font-size: 10.5em;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20%;
     color: #000000;
 }
 
 #header{
     color:#000000
+}
+#subheader{
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
