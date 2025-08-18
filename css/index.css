@@ -1,6 +1,7 @@
 body {
-    background-image: url("./Artboard 1_1.png");
+    background-color: #000022; /* fallback color */
+    background-image: url("Artboard 1_1.png"); /* if image is in same folder as CSS */
     background-repeat: repeat-y;
-    background-position: left top; 
-    background-size: auto;         
+    background-position: left top;
+    background-size: auto;
 }
