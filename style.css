@@ -32,3 +32,16 @@ body {
   text-align: center;
   font-size: 1.5em;
 }
+
+.text {
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px; /* Optional: for spacing */
+    width: 2000px;
+    overflow-wrap: break-word; /* For breaking long words */
+    align-items: center;
+}
