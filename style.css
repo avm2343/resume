@@ -19,7 +19,7 @@ h1{
     font-size: 3.5em;
     text-align: center;
     color: #ffffff;
-    padding:-15%;
+    padding:0px;
 }
 
 body {
@@ -29,10 +29,10 @@ body {
 }
 
 .text {
-    font-family: "azo-sans-web", sans-serif;
-    font-weight: 800;
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     color: #ffffff;
     padding: 10px; /* Optional: for spacing */
@@ -40,6 +40,10 @@ body {
     overflow-wrap: break-word; /* For breaking long words */
     align-items: center;
     padding-bottom: 10%;
+}
+
+#summary{
+    font-size: 2em;
 }
 
 .row {
