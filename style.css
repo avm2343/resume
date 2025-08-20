@@ -61,32 +61,3 @@ body {
   font-style: normal;
   font-size: 1.5em;
 }
-
-/*hover functionality*/
-.hover-container {
-  position: relative; /* Essential for positioning the tooltip */
-  display: inline-block; /* Allows the container to wrap its content */
-}
-
-.tooltip-info {
-  visibility: hidden; /* Hides the tooltip by default */
-  opacity: 0; /* Starts with full transparency */
-  transition: opacity 0.3s ease-in-out; /* Smooth transition for opacity */
-  position: absolute; /* Positions the tooltip relative to its container */
-  z-index: 1; /* Ensures the tooltip appears above other content */
-  background-color: #333; /* Background color for the tooltip */
-  color: #fff; /* Text color for the tooltip */
-  border-radius: 4px; /* Rounded corners for the tooltip */
-  white-space: normal; /* text wrapping */
-  /* Adjust positioning as needed, e.g., top, bottom, left, right */
-  bottom: 125%; /* Positions above the main text */
-  left: 50%;
-  transform: translateX(-50%); /* Centers the tooltip horizontally */
-  padding: 500px, 500px, 500px, 500px;
-  text-align: left;
-}
-
-.hover-container:hover .tooltip-info {
-  visibility: visible; /* Makes the tooltip visible on hover */
-  opacity: 1; /* Fades the tooltip in */
-}
