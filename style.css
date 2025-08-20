@@ -12,7 +12,7 @@ h1{
 #header{
     color:#ffffff
 }
-#subheader{
+.subheader{
     font-family: "azo-sans-web", sans-serif;
     font-weight: 800;
     font-style: bold;
